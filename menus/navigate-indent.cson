@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle navigate-indent'
+      'command': 'navigate-indent:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'navigate-indent'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'navigate-indent:toggle'
+        }
+      ]
+    ]
+  }
+]
