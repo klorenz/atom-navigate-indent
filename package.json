@@ -1,13 +1,12 @@
 {
   "name": "navigate-indent",
   "main": "./lib/navigate-indent",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Keybindings for quickly navigate through indentations",
   "repository": "https://github.com/klorenz/atom-navigate-indent",
   "license": "MIT",
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
